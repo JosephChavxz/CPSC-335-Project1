@@ -46,6 +46,10 @@ def read_input_file(filename):
     with open(filename, 'r') as file:
         lines = file.readlines()
 
+    # Print the lines read from the file
+    for line in lines:
+        print(line.strip())
+
     test_cases = []
     data = {}
     key = None
@@ -65,6 +69,7 @@ def read_input_file(filename):
                 data[key].append(line.split())
 
     return test_cases
+
 
 def write_output_file(filename, results):
     with open(filename, 'w') as file:
