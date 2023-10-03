@@ -1,4 +1,4 @@
-# CPSC-335-Project1
+# CPSC335-Project1
 
 Implementing Algorithms: Matching Group Schedules
 
