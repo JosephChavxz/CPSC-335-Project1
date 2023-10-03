@@ -17,4 +17,3 @@ END
 duration_of_meeting
 30
 END
-... [repeat for other test cases]
